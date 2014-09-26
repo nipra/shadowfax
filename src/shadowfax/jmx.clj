@@ -28,7 +28,7 @@
          (doseq [x xs]
            (p/cl-format true format-string (map x ks)))))))
 
-(def ^{:dynamic true} hbase-master "hadoop-hmaster02.sl.ss")
+(def ^{:dynamic true} hbase-master "localhost")
 (def ^{:dynamic true} hbase-master-jmx-port 10101)
 (def ^{:dynamic true} hbase-regionserver-jmx-port 10102)
 
