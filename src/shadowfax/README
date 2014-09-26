@@ -1,0 +1,14 @@
+TODOs:
+
+* Find a way to return first and last cells only for a row, lexicographcialy sorted
+  by column qualifier.
+
+* Find all tables with major compaction in progress.     
+
+* Find first row and last row for a table.
+
+* Find row keys/count with some constraint on row keys (Regex etc). Function will take start and end key.
+  * Return first `n' keys.
+
+* Find data size stored in HBase cluster.
+  * Will be used for finding delta data size change.
